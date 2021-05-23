@@ -6,15 +6,18 @@
   padding: 5px 3px;
 }
 
+.status-bar__column:first-child {
+  margin-right: auto;
+}
+
 .status-bar__column:nth-child(2) {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .status-bar__column:last-child {
+  margin-left: auto;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 }
 
 .status-bar__column .fa-battery-full {
