@@ -10,19 +10,23 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/chats.css";
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/chat2.css";
+@import "screens/chat3.css";
 
 body {
   color: #2e363e;
   font-family: "Dancing Script", cursive;
-  height: 1000vh;
+  height: 160vh;
 }
 
 .main-screen {

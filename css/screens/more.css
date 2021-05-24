@@ -13,6 +13,7 @@
 }
 
 .more-suggestion__icons {
+  justify-content: space-between;
   display: flex;
 }
 
@@ -26,7 +27,7 @@
 .more-suggestion__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
+  background-color: #b19bd9;
   border-radius: 10px;
   display: flex;
   justify-content: center;

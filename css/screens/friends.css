@@ -1,7 +1,11 @@
+body {
+  background-color: #c18ee5;
+}
+
 #friends-display-link {
   text-align: center;
   display: block;
-  background-color: #fafafa;
+  background-color: #c18ee5;
   padding: 15px 0px;
   font-size: 18px;
   margin-bottom: 15px;
@@ -29,6 +33,62 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.friends-screen__channel__color {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.friends-screen__channel__color img {
+  margin-bottom: 15px;
+}
+
+.friends-screen__friends {
+  padding-top: 15px;
+}
+
+.friends-screen__friend {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.friends-screen__friends-header {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.friends-screen__friend__name {
+  color: black;
+}
+
+.friends-screen__friend__add-attribute {
+  margin-top: 5px;
+}
+
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: #4e286c;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  animation: hideSplashScreen 0.4s 1s ease-in-out forwards;
+  animation-delay: 0.6s;
 }
