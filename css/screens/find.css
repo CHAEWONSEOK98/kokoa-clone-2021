@@ -10,12 +10,23 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-.recommended-friend span {
-  margin: 100px 0;
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.5);
+.recommended-friend__between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommended-friend-1 {
+  margin-top: 20px;
+  align-items: center;
+}
+
+.recommended-friend-1 i {
+  font-size: 37px;
+  margin-right: 5px;
+}
+
+.recommended-friend-1 span {
+  font-size: 20px;
 }
 
 .open-chat__header {
