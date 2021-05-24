@@ -15,13 +15,19 @@
   justify-content: space-between;
 }
 
-.recommended-friend-1 {
+.recommended-friend-1,
+.recommended-friend-2 {
   margin-top: 20px;
   align-items: center;
 }
 
-.recommended-friend-1 i {
+.recommended-friend-1 i,
+.recommended-friend-2 i {
   font-size: 37px;
+}
+
+.recommended-friend-2 i {
+  margin-right: 10px;
 }
 
 .recommended-friend-1 span {
